@@ -1,29 +1,39 @@
 'use strict';
 
 //pick a word for player to guess
-let word = 'peach'
+let word = 'citrus'
 
 //create variable to represent letter spaces = empty array
-let answerArray = []
+let answerArray = [];
+console.log(answerArray)
+
 for (let i = 0; i < word.length; i++) {
     answerArray[i] = "_"
 }
 
-//user inputs a letter--loop through the word to see if letter matches any letter in my word
+//create arrays for wrong guesses
+let wrongGuess = [];
+
+//user inputs a guess--loop through the word to see if letter matches any letter in my word
 const guessedLetter = () => {
 for (let i = 0; i < word.length; i++) {
     if (word[i] === guessedLetter){
-        console.log()
+        guess[i].push
+        console.log(guessedLetter)
 }
 }
 }
 
 //if theres a match, input the letter at the corresponding index of variable-word 
+
 //if no match, alert 'try again'
-//create a list of incorrect letters used
+
+
 //create a counter for turns left
+
 //if out of turns, alert 'try again'
 // alert.
+
 //if a win, alert 'congrats'
 // alert.
 

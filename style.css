@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: coral;
+  color: darkcyan;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+header { 
+  margin: 0 auto;
+  margin-top: 70px;
+  border: 2px solid white;
+  width: 80%;
+  height: 200px;
+  font-size: 20px;
+}
+
+.underscores {
+  margin: 50px auto;
+  border: 2px solid white;
+  width: 80%;
+  height: 150px;
+  font-size: 100px;
+}
+
+.rightGuess {
+  margin: 50px auto;
+  border: 2px solid white;
+  width: 80%;
+  height: 150px;
+  font-size: 20px;
+}
+
+.wrongGuess {
+  margin: 50px auto;
+  border: 2px solid white;
+  width: 80%;
+  height: 150px;
+  font-size: 20px;
+}
